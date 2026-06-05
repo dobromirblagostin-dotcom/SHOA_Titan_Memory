@@ -167,6 +167,7 @@ class BabyTitan:
             self._save_ability(name, code)
             print(f"✅ Малыш выучил '{name}' и сохранил")
             self._smart_log("ОБУЧЕНИЕ", f"Выучена способность: {name}")
+            self.sync_to_github()
             return True
         except Exception as e:
             print(f"❌ Ошибка: {e}")
