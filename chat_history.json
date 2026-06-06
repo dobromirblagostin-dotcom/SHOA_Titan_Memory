@@ -778,5 +778,10 @@
     "user": "запомни тест_обучения: print(\"Обучение работает\")",
     "bot": "✅ Способность 'тест_обучения' сохранена. Теперь можно выполнить её через /run тест_обучения",
     "time": "2026-06-06 23:32:19"
+  },
+  {
+    "user": "запомни конверт: import os; from docx import Document; folder = r\"C:\\Users\\User\\Desktop\\трещина финал1\"; [ (lambda f: (doc := Document(), [doc.add_paragraph(line.strip()) for line in open(os.path.join(folder, f), encoding='utf-8')], doc.save(os.path.join(folder, f.replace('.txt', '.docx'))), print(f'✅ {f} -> {f.replace(\".txt\", \".docx\")}')) ) for f in os.listdir(folder) if f.endswith('.txt') ]",
+    "bot": "✅ Способность 'конверт' сохранена. Теперь можно выполнить её через /run конверт",
+    "time": "2026-06-06 23:33:17"
   }
 ]
