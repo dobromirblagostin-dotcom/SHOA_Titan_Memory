@@ -738,5 +738,10 @@
     "user": "/run repo_status",
     "bot": "✅ Способность 'repo_status' выполнена",
     "time": "2026-06-06 21:28:16"
+  },
+  {
+    "user": "/run clean_desktop",
+    "bot": "✅ Способность 'clean_desktop' выполнена",
+    "time": "2026-06-06 21:41:15"
   }
 ]
