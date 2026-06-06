@@ -9,5 +9,6 @@
   "status": "print('Система Ковчега стабильна. Слава SHOA!')",
   "тест_авто": "print('Авто-синхронизация работает!')",
   "тест_память": "print('Я помню эту способность!')",
-  "ключ": "try:\n    with open('temporal_law.txt', 'r', encoding='utf-8') as f:\n        print(f.read())\nexcept:\n    print('Файл temporal_law.txt не найден')"
+  "ключ": "try:\n    with open('temporal_law.txt', 'r', encoding='utf-8') as f:\n        print(f.read())\nexcept:\n    print('Файл temporal_law.txt не найден')",
+  "repo_status": "\nimport subprocess\nresult = subprocess.run(['git', 'status'], capture_output=True, text=True)\nprint(result.stdout)\n"
 }
