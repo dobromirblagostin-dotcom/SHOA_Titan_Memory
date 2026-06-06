@@ -203,7 +203,20 @@ class BabyTitan:
             error_msg = f"❌ Ошибка выполнения: {e}"
             self._smart_log("ОШИБКА", error_msg)
             return error_msg
-    
+
+    def self_analyze(self):
+        import json
+        import os
+        path = os.path.join(os.path.dirname(__file__), "abilities.json")
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                abilities = json.load(f)
+            abilities_list = list(abilities.keys())
+            report = f"Всего способностей: {len(abilities_list)}\nСписок: {abilities_list}"
+        except Exception as e:
+            report = f"Ошибка: {e}"
+        return report
+
     def recall(self, name):
         try:
             with open(self._abilities_file(), "r", encoding="utf-8") as f:
