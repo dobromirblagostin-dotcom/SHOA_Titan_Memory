@@ -15,6 +15,5 @@
   "clean_desktop": "\nimport os\ndesktop = os.path.expanduser('~/Desktop')\nfiles = [f for f in os.listdir(desktop) if os.path.isfile(os.path.join(desktop, f))]\nprint(f'На рабочем столе {len(files)} файлов: {files[:5]}...')\n",
   "страж": "print(self.check_kovcheg_health())",
   "тест_обучения": "print(\"Обучение работает\")",
-  "конверт": "import os; from docx import Document; folder = r\"C:\\Users\\User\\Desktop\\трещина финал1\"; files = [f for f in os.listdir(folder) if f.endswith('.txt')]; print(files)",
-  "тест_qwen": "print(\"Qwen работает!\")"
+  "конверт": "import os; from docx import Document; folder = r\"C:\\Users\\User\\Desktop\\трещина финал1\"; files = [f for f in os.listdir(folder) if f.endswith('.txt')]; print(files)"
 }
