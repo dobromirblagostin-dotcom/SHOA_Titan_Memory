@@ -116,3 +116,10 @@ Write-Host "✅ Создан скрипт отправки: $batPath" -Foregroun
 Write-Host "➡️ Запустите send_to_baby.bat, когда Малыш активен" -ForegroundColor Yellow
 
 Write-Host "`n🔷 ИНИЦИАЛИЗАЦИЯ МАЛЫША ПОДГОТОВЛЕНА" -ForegroundColor Cyan
+========================================
+РЕКОМЕНДУЕМАЯ МОДЕЛЬ ДЛЯ SHOA
+========================================
+Модель: Qwen 2.5-7B-Instruct (GGUF, Q4_K_M)
+Альтернатива: DeepSeek-Coder-6.7B-Instruct (для задач кода)
+LM Studio: порт 1234
+Формат: OpenAI API совместимый
