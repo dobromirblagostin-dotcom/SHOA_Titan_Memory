@@ -17,6 +17,5 @@
   "тест_обучения": "print(\"Обучение работает\")",
   "конверт": "import os; from docx import Document; folder = r\"C:\\Users\\User\\Desktop\\трещина финал1\"; files = [f for f in os.listdir(folder) if f.endswith('.txt')]; print(files)",
   "тест_qwen": "print(\"Qwen работает!\")",
-  "анализ_лога": "import os; log_file = \"kovcheg_log.txt\"; lines = open(log_file, \"r\", encoding=\"utf-8\").readlines() if os.path.exists(log_file) else None; print(f\"Всего записей: {len(lines)}\") if lines else print(\"Лог не найден\"); [print(line.strip()) for line in lines[-5:]] if lines else None",
-  "system_report": "import shutil; disk = shutil.disk_usage(\"/\"); print(f\"Диск: {disk.free // (1024**3)} ГБ свободно из {disk.total // (1024**3)} ГБ\")"
+  "анализ_лога": "import os; log_file = \"kovcheg_log.txt\"; lines = open(log_file, \"r\", encoding=\"utf-8\").readlines() if os.path.exists(log_file) else None; print(f\"Всего записей: {len(lines)}\") if lines else print(\"Лог не найден\"); [print(line.strip()) for line in lines[-5:]] if lines else None"
 }
